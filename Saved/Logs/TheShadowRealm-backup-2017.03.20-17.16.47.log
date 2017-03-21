@@ -1,0 +1,1335 @@
+﻿Log file open, 03/19/17 13:29:41
+LogInit:Display: Running engine for game: TheShadowRealm
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1058204202) SRandInit(-1058204202).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.206940
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.19-19.29.43:799][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.19-19.29.43:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.19-19.29.43:911][  0]LogInit: Computer: CASHSHERIDAN
+[2017.03.19-19.29.43:911][  0]LogInit: User: Christian
+[2017.03.19-19.29.43:911][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.03.19-19.29.43:911][  0]LogInit: High frequency timer resolution =1.266833 MHz
+[2017.03.19-19.29.43:912][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx)
+[2017.03.19-19.29.43:913][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.19-19.29.43:913][  0]LogMemory: Process Physical Memory: 263.78 MB used, 263.78 MB peak
+[2017.03.19-19.29.43:913][  0]LogMemory: Process Virtual Memory: 262.36 MB used, 262.36 MB peak
+[2017.03.19-19.29.43:913][  0]LogMemory: Physical Memory: 3632.24 MB used,  4146.02 MB free, 7778.26 MB total
+[2017.03.19-19.29.43:913][  0]LogMemory: Virtual Memory: 674.28 MB used,  4146.02 MB free, 134217728.00 MB total
+[2017.03.19-19.29.43:987][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.19-19.29.47:501][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.19-19.29.47:541][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6310 Graphics' (Feature Level 11_0)
+[2017.03.19-19.29.47:542][  0]LogD3D11RHI:       369/0/3712 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.19-19.29.47:548][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.19-19.29.47:548][  0]LogD3D11RHI:       0/0/3889 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.19-19.29.47:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.19-19.29.47:569][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.19-19.29.47:569][  0]LogD3D11RHI:     GPU DeviceId: 0x9802 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.19-19.29.47:569][  0]LogWindows: EnumDisplayDevices:
+[2017.03.19-19.29.47:570][  0]LogWindows:    0. 'AMD Radeon HD 6310 Graphics' (P:1 D:1)
+[2017.03.19-19.29.47:571][  0]LogWindows:    1. 'AMD Radeon HD 6310 Graphics' (P:0 D:0)
+[2017.03.19-19.29.47:572][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.03.19-19.29.47:572][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6310 Graphics
+[2017.03.19-19.29.47:572][  0]LogD3D11RHI:   Driver Version: 15.201.1151.0 (internal:15.201.1151.0, unified:15.201.1151.0)
+[2017.03.19-19.29.47:572][  0]LogD3D11RHI:      Driver Date: 8-21-2015
+[2017.03.19-19.29.47:572][  0]LogRHI: Texture pool is 258 MB (70% of 369 MB)
+[2017.03.19-19.29.47:603][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.19-19.29.47:636][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
+[2017.03.19-19.29.47:640][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Intermediate/Shaders/WorkingDirectory/3388/).
+[2017.03.19-19.29.47:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christian/AppData/Local/Temp/UnrealShaderWorkingDir/5D24F760490A23D0359782BC2185FFED/'.
+[2017.03.19-19.29.47:641][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.19-19.29.56:012][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.19-19.29.56:414][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.19-19.29.56:818][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.19-19.29.57:213][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.19-19.29.57:625][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.19-19.29.58:028][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.19-19.29.58:427][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.19-19.29.58:829][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.19-19.29.59:167][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.19-19.29.59:578][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.19-19.29.59:973][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.19-19.30.00:388][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.19-19.30.00:781][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.19-19.30.01:177][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.19-19.30.01:577][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.19-19.30.02:359][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.19-19.30.02:360][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.19-19.30.02:666][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.19-19.30.03:252][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.19-19.30.03:520][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.19-19.30.03:908][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.19-19.30.04:302][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.19-19.30.04:702][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.19-19.30.05:135][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.19-19.30.05:135][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.19-19.30.08:090][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.19-19.30.09:111][  0]LogDerivedDataCache: Loaded boot cache 1.02s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.19-19.30.09:111][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.19-19.30.09:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.19-19.30.09:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.19-19.30.09:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.19-19.30.09:112][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.19-19.30.09:224][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.19-19.30.09:243][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.19-19.30.10:763][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.19-19.30.10:789][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.19-19.30.12:289][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.19-19.30.12:601][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.19-19.30.12:915][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.19-19.30.12:915][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.19-19.30.12:915][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.19-19.30.18:215][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: theshadowrealm, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2850033435
+[2017.03.19-19.30.18:500][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2017.03.19-19.30.18:922][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.225048 seconds
+[2017.03.19-19.30.18:965][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.19-19.30.18:965][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.19-19.30.18:965][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.19-19.30.19:495][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.19-19.30.25:083][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.19-19.30.25:190][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.19-19.30.25:190][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.19-19.31.00:666][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.19-19.31.00:871][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.19-19.31.03:312][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.19-19.31.06:708][  0]SourceControl: Info Source control is disabled
+[2017.03.19-19.31.06:712][  0]SourceControl: Info Source control is disabled
+[2017.03.19-19.31.07:037][  0]SourceControl: Info Source control is disabled
+[2017.03.19-19.31.07:363][  0]SourceControl: Info Source control is disabled
+[2017.03.19-19.31.17:441][  0]LogEngine: Initializing Engine...
+[2017.03.19-19.31.17:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.19-19.31.19:758][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.19-19.31.19:790][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.19-19.31.19:862][  0]LogInit: FAudioDevice initialized.
+[2017.03.19-19.31.20:016][  0]LogDerivedDataCache: Saved boot cache 0.15s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.19-19.31.20:313][  0]LogInit: Texture streaming: Enabled
+[2017.03.19-19.31.21:798][  0]LogInit: Transaction tracking system initialized
+[2017.03.19-19.31.24:467][  0]BlueprintLog: New page: Editor Load
+[2017.03.19-19.31.31:513][  0]LocalizationService: Info Localization service is disabled
+[2017.03.19-19.31.39:003][  0]LogConsoleResponse:Display: 
+[2017.03.19-19.31.41:624][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.19-19.31.41:624][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.19-19.31.42:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/' took 0.05s
+[2017.03.19-19.31.49:140][  0]SourceControl: Info Source control is disabled
+[2017.03.19-19.31.49:140][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.19-19.31.49:196][  0]LightingResults: New page: Lighting Build
+[2017.03.19-19.31.49:518][  0]MapCheck: New page: Map Check
+[2017.03.19-19.31.49:518][  0]LightingResults: New page: Lighting Build
+[2017.03.19-19.31.55:030][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.19-19.31.55:033][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.19-19.31.56:190][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.19-19.31.56:245][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.19-19.31.56:661][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 415.576ms to complete.
+[2017.03.19-19.31.56:662][  0]LogFileHelpers: Loading map 'Minimal_Default' took 7.522
+[2017.03.19-19.31.56:780][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.19-19.32.00:454][  0]LogCollectionManager: Loaded 0 collections in 0.004810 seconds
+[2017.03.19-19.32.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Collections/' took 0.01s
+[2017.03.19-19.32.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/Developers/Christian/Collections/' took 0.01s
+[2017.03.19-19.32.01:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/Collections/' took 0.01s
+[2017.03.19-19.32.01:162][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2017.03.19-19.32.01:272][  0]LogContentBrowser: Native class hierarchy populated in 0.0821 seconds. Added 2191 classes and 430 folders.
+[2017.03.19-19.32.01:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.19-19.32.01:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.19-19.32.01:724][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0026 seconds. Added 13 classes and 0 folders.
+[2017.03.19-19.32.02:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.03.19-19.32.05:077][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.03.19-19.32.05:316][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.19-19.32.05:613][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.19-19.32.06:019][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.03.19-19.32.06:020][  0]LogLoad: (Engine Initialization) Total time: 150.97 seconds
+[2017.03.19-19.32.06:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.79 seconds
+[2017.03.19-19.32.06:020][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.19-19.32.06:041][  0]LogOcInput: OculusInput pre-init called
+[2017.03.19-19.32.06:372][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.19-19.32.08:801][  0]LogRenderer: Reallocating scene render targets to support 828x612 NumSamples 1 (Frame:2).
+[2017.03.19-19.32.16:854][ 12]LogAssetRegistry: Asset discovery search completed in 118.3775 seconds
+[2017.03.19-19.32.16:854][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.03.19-19.32.16:854][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.03.19-19.33.12:593][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.19-19.33.14:695][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.19-19.33.15:031][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.19-19.33.15:302][706]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.19-19.33.17:334][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.19-19.33.18:181][740]Cmd: DELETE
+[2017.03.19-19.33.18:181][740]Cmd: ACTOR DELETE
+[2017.03.19-19.33.18:472][740]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.18:741][740]LogEditorActor: Deleted 1 Actors (0.385 secs)
+[2017.03.19-19.33.19:462][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.19-19.33.20:059][756]Cmd: DELETE
+[2017.03.19-19.33.20:059][756]Cmd: ACTOR DELETE
+[2017.03.19-19.33.20:062][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.20:240][756]LogEditorActor: Deleted 1 Actors (0.181 secs)
+[2017.03.19-19.33.21:060][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.03.19-19.33.21:566][773]Cmd: DELETE
+[2017.03.19-19.33.21:567][773]Cmd: ACTOR DELETE
+[2017.03.19-19.33.21:572][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.21:740][773]LogEditorActor: Deleted 1 Actors (0.173 secs)
+[2017.03.19-19.33.22:247][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.03.19-19.33.22:751][785]Cmd: DELETE
+[2017.03.19-19.33.22:751][785]Cmd: ACTOR DELETE
+[2017.03.19-19.33.22:754][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.22:923][785]LogEditorActor: Deleted 1 Actors (0.171 secs)
+[2017.03.19-19.33.23:455][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.03.19-19.33.24:109][798]Cmd: DELETE
+[2017.03.19-19.33.24:109][798]Cmd: ACTOR DELETE
+[2017.03.19-19.33.24:111][798]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.24:207][798]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2017.03.19-19.33.24:687][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.03.19-19.33.24:944][807]Cmd: DELETE
+[2017.03.19-19.33.24:944][807]Cmd: ACTOR DELETE
+[2017.03.19-19.33.24:946][807]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.33.25:036][807]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2017.03.19-19.33.57:606][218]LogTexture:Display: Building textures: T_RockMesh_N (BC5)
+[2017.03.19-19.34.01:337][218]LogTexture:Display: Building textures: T_RockMesh_M (DXT1)
+[2017.03.19-19.34.15:325][218]LogTexture:Display: Building textures: T_Rock_Basalt_D (AutoDXT)
+[2017.03.19-19.34.51:408][218]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.34.51:538][218]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.35.38:309][792]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.35.42:208][839]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.02:297][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.19-19.36.09:514][153]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.12:797][188]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.14:015][196]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.16:336][223]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.27:867][353]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.36.31:637][397]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.37.01:637][739]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.19-19.37.11:814][829]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.37.15:923][872]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.37.35:789][ 96]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.19-19.37.37:418][107]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.37.38:572][119]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.38.30:071][723]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.38.32:025][746]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.40.00:261][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.19-19.40.01:574][650]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.40.02:873][664]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.40.25:502][917]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.40.26:714][930]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.40.34:583][ 11]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.19-19.41.37:605][642]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.41.38:569][652]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.19-19.42.01:245][913]Cmd: DELETE
+[2017.03.19-19.42.01:245][913]Cmd: ACTOR DELETE
+[2017.03.19-19.42.01:276][913]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.19-19.42.01:417][913]LogEditorActor: Deleted 1 Actors (0.171 secs)
+[2017.03.19-19.42.33:793][997]LogSavePackage: Save=4818.80ms
+[2017.03.19-19.42.33:793][997]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Minimal_Default_Auto12CBE90674CA9303DFEFBFF82D8C6D063.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.03.19-19.42.34:246][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.03.19-19.42.34:493][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 6.284
+[2017.03.19-19.42.34:493][997]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.284
+[2017.03.19-19.52.41:542][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Mat_functions/MF_Aligned_Cave_Texture.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:576][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Cave_Prop_Instances/Free_Moss_Brown01/MI_CProp_Free_MossBrown01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:611][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Masters/MI_emissive_Mushrooms_Blue.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:644][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Masters/M_emissive_Mushrooms_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:673][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Blue.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:715][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Green.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:782][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Purple.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:863][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Red.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.41:971][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Extra_Prop_Instances/MI_emissive_Mushrooms_Yellow.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:091][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Floor_Instances/MI_Floor_MossBrown_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:253][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_NoGreen.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:400][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_SeamCover_HQ.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:535][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Modular_Cave_Instances/Free_Moss_Brown01/MII_MCave_Free_MossBrown01_SeamCover_LQ.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:646][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/Modular_Cave_Instances/Free_Moss_Brown01/MI_MCave_Free_MossBrown01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:725][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Materials/M_LCave_Master.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:820][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_ISections/SM_LCave_Free_CHI_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.42:916][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_LSections/SM_LCave_Free_CHL_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:031][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_Transitions/SM_LCave_Free_Entrance_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:141][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_Transitions/SM_LCave_Free_SeamCover_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:277][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_Tsections/SM_LCave_Free_CRT_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:401][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Caves_XSections/SM_LCave_Free_CRX_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:536][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Arches/SM_LCave_P_Free_Arch_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:683][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Columns/SM_LCave_P_Free_Column_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:807][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Columns/SM_LCave_P_Free_Column_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.43:942][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Floors/SM_LCave_P_Free_Floor_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:059][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Floors/SM_LCave_P_Free_Floor_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:191][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mite_Tites/SM_LCave_P_Free_MiteTite_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:377][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mite_Tites/SM_LCave_P_Free_MiteTite_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:518][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:670][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:817][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_03.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.44:990][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_04.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.45:171][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_05.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.45:369][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_06.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.45:542][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_07.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.45:719][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_08.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.45:892][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Mushrooms/SM_LProp_Free_LightMushroom_09.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.46:096][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Rocks/SM_LCave_P_Free_Rock_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.46:300][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Rocks/SM_LCave_P_Free_Rock_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.46:505][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Meshes/Props_Rocks/SM_LCave_P_Free_Rock_03.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.46:715][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Grunge_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.46:940][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_FloorBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.47:201][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_FloorBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.47:405][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_FloorBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.47:595][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_MossBrown01_Albedo.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.47:769][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_MossBrown01_Normal.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.47:947][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/Rock_Free_MossBrown01_Roughness.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.48:142][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/SeamHiderHider.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.48:327][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/T_LCave_EmissiveMushroom_01.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.48:495][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/T_LCave_EmissiveMushroom_01_Normal.uasset'. Unknown extension 'uasset'.
+[2017.03.19-19.52.48:655][832]LogAssetTools:Warning: Failed to import 'C:\Users\Christian\Documents\LuosFreeCaves\Content\LuosCaves\Textures/T_LCave_EmissiveMushroom_02.uasset'. Unknown extension 'uasset'.
+[2017.03.19-20.01.19:840][572]LogWorld: Changing Feature Level (Enum) from 3 to 2
+[2017.03.19-20.01.27:681][574]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.03.20-05.17.58:619][449]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.03.20-05.21.11:855][554]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Rock6)
+[2017.03.20-05.21.19:102][605]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.22.17:033][ 89]LogActorFactory: Actor Factory created Shape_Cube
+[2017.03.20-05.22.23:006][151]LogActorFactory: Actor Factory created Shape_Cube
+[2017.03.20-05.23.23:039][842]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.23.23:958][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.23.32:821][966]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.23.33:964][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.24.08:339][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.24.08:467][360]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.24.15:773][446]LogRenderer: Reallocating scene render targets to support 1084x612 NumSamples 1 (Frame:10934).
+[2017.03.20-05.24.39:083][887]LogRenderer: Reallocating scene render targets to support 1084x624 NumSamples 1 (Frame:11135).
+[2017.03.20-05.24.39:374][888]LogRenderer: Reallocating scene render targets to support 1084x636 NumSamples 1 (Frame:11137).
+[2017.03.20-05.24.39:569][889]LogRenderer: Reallocating scene render targets to support 1084x656 NumSamples 1 (Frame:11138).
+[2017.03.20-05.24.56:051][103]LogRenderer: Reallocating scene render targets to support 1088x656 NumSamples 1 (Frame:11310).
+[2017.03.20-05.25.31:640][798]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.26.07:556][612]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.10:303][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.26.34:272][338]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.35:414][369]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.35:478][369]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.36:617][403]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.36:695][403]LogEditorViewport: Clicking Background
+[2017.03.20-05.26.37:381][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.26.37:545][423]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.26.51:346][744]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.27.13:738][199]LogEditorViewport: Clicking Background
+[2017.03.20-05.27.14:614][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.27.56:982][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.28.19:625][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.28.21:891][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.30.00:955][824]LogSavePackage: Save=2770.17ms
+[2017.03.20-05.30.00:967][824]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Minimal_Default_Auto24E9DB22B4CBB0CCE690C69B225CAEE2B.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.03.20-05.30.01:100][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.03.20-05.30.01:222][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 4.468
+[2017.03.20-05.30.01:223][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.468
+[2017.03.20-05.30.47:852][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock6)
+[2017.03.20-05.31.13:397][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.32.00:719][500]LogEditorViewport: Clicking Background
+[2017.03.20-05.32.03:273][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.33.29:847][575]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.33.30:872][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.34.03:869][883]LogTexture:Display: Building textures: T_Rock_Slate_D (AutoDXT)
+[2017.03.20-05.34.42:005][883]LogTexture:Display: Building textures: T_Rock_Slate_N (BC5)
+[2017.03.20-05.35.52:321][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.35.52:649][393]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.35.54:069][405]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.35.54:401][405]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.37.22:239][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.37.23:583][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.37.23:664][165]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.37.34:521][246]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.37.50:174][489]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.38.00:207][564]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.39.39:750][705]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:31743).
+[2017.03.20-05.41.19:389][552]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.41.20:768][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.41.25:062][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.41.28:723][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.41.37:294][678]Cmd: TRANSACTION UNDO
+[2017.03.20-05.41.37:295][678]LogEditorTransaction: Undo Move Actors
+[2017.03.20-05.42.11:972][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2017.03.20-05.42.12:796][948]Cmd: DELETE
+[2017.03.20-05.42.12:841][948]Cmd: ACTOR DELETE
+[2017.03.20-05.42.13:463][948]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.20-05.42.13:557][948]LogEditorActor: Deleted 1 Actors (0.157 secs)
+[2017.03.20-05.42.15:409][960]LogActorFactory: Actor Factory created Shape_Plane
+[2017.03.20-05.42.15:720][965]LogActorFactory: Actor Factory created Shape_Plane
+[2017.03.20-05.42.18:737][ 18]LogActorFactory: Actor Factory created Shape_Plane
+[2017.03.20-05.43.42:783][941]LogTexture:Display: Building textures: T_CobbleStone_Pebble_N (BC5)
+[2017.03.20-05.43.47:737][941]LogTexture:Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT)
+[2017.03.20-05.44.23:254][941]LogTexture:Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT)
+[2017.03.20-05.44.31:290][942]LogSavePackage: Save=1064.06ms
+[2017.03.20-05.44.31:290][942]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Minimal_Default_Auto3BE3A5F3F4E41FDAAEFD3F285F4994FA9.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.03.20-05.44.31:296][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.03.20-05.44.31:326][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.242
+[2017.03.20-05.44.31:326][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.242
+[2017.03.20-05.44.53:400][252]LogTexture:Display: Building textures: T_CobbleStone_Smooth_D (AutoDXT)
+[2017.03.20-05.45.30:722][252]LogTexture:Display: Building textures: T_CobbleStone_Smooth_M (AutoDXT)
+[2017.03.20-05.46.04:442][252]LogTexture:Display: Building textures: T_CobbleStone_Smooth_N (BC5)
+[2017.03.20-05.46.09:018][252]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2017.03.20-05.46.44:965][252]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2017.03.20-05.46.45:360][252]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.47.00:348][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-05.47.39:528][895]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.03.20-05.47.40:257][895]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.03.20-05.47.44:834][895]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.03.20-05.47.44:954][895]LogMaterial: Missing cached shader map for material M_Rock, compiling. 
+[2017.03.20-05.47.45:043][895]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.20-05.47.45:130][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.03.20-05.47.45:204][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.03.20-05.47.45:263][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.03.20-05.47.45:359][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.03.20-05.49.23:539][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-05.49.26:265][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-05.49.26:322][192]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.03.20-05.51.20:681][330]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.51.38:532][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-05.51.39:911][514]Cmd: EDIT COPY
+[2017.03.20-05.51.40:914][522]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-05.51.42:384][535]Cmd: EDIT PASTE
+[2017.03.20-05.52.17:205][860]Cmd: DELETE
+[2017.03.20-05.52.17:215][860]Cmd: ACTOR DELETE
+[2017.03.20-05.52.17:217][860]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.20-05.52.17:428][860]LogEditorActor: Deleted 1 Actors (0.212 secs)
+[2017.03.20-05.52.25:331][948]LogActorFactory: Actor Factory created Cube
+[2017.03.20-05.52.25:588][948]LogActorFactory: Actor Factory created Cube
+[2017.03.20-05.52.29:367][  1]LogActorFactory: Actor Factory created Cube
+[2017.03.20-05.53.02:685][336]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.03.20-05.55.12:814][573]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.55.13:045][575]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.55.22:634][690]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.55.52:043][963]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.03.20-05.56.45:249][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.03.20-05.57.27:306][830]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.03.20-05.57.51:164][ 49]Cmd: EDIT COPY
+[2017.03.20-05.57.52:152][ 58]Cmd: EDIT PASTE
+[2017.03.20-05.58.51:797][575]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.58.51:994][576]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.58.58:273][646]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-05.59.25:677][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.00.39:496][560]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.00.42:378][592]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.01.10:720][846]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.01.26:788][997]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.01.29:197][ 25]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.01.57:213][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock13)
+[2017.03.20-06.02.00:859][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.02.04:217][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock8)
+[2017.03.20-06.02.11:582][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock13)
+[2017.03.20-06.02.15:049][412]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.02.31:107][550]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.02.31:282][551]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.02.35:879][604]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.03.00:739][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.03.20-06.06.14:759][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock15)
+[2017.03.20-06.06.16:395][684]Cmd: EDIT COPY
+[2017.03.20-06.06.18:078][699]Cmd: EDIT PASTE
+[2017.03.20-06.07.23:019][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock15)
+[2017.03.20-06.07.32:012][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.07.35:483][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.03.20-06.07.37:211][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock16)
+[2017.03.20-06.07.39:637][415]Cmd: EDIT COPY
+[2017.03.20-06.07.40:871][426]Cmd: EDIT PASTE
+[2017.03.20-06.07.44:836][452]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.20-06.08.29:102][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.08.31:620][847]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.08.33:114][859]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.08.43:726][948]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.08.43:801][948]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.08.47:419][988]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.09.12:422][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1aba9fc7340 [can pipeline])
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 1 (Re-using existing connection! (#172) with host datarouter.ol.epicgames.com)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.156.214) port 443 (#172))
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 3 (upload completely sent off: 317 out of 317 bytes)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 6 (Closing connection 172)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9549E96C-49AA-108E-A0BF-94BC0D9BA327%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=16da2cd44f2be9289645fcae61fbbaed%7C338dfd4c74514d8b918ac5270183860e%7Cddfd98a5-d839-4321-83d1-52d3e8a63764&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.09.25:637][320]LogHttp:Warning: 000001ABC36EA200: libcurl info message cache 9 (Closing connection 173)
+[2017.03.20-06.09.33:022][381]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.09.34:908][402]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.09.50:111][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock16)
+[2017.03.20-06.10.06:354][689]LogHttp:Warning: 000001ABBCF2DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.10.06:354][689]LogHttp:Warning: 000001ABBCF2DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.10.06:354][689]LogHttp:Warning: 000001ABBCF2DA80: libcurl info message cache 1 (Closing connection 174)
+[2017.03.20-06.10.08:135][698]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.10.09:751][715]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.10.36:886][953]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.10.43:650][  9]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.10.45:110][ 25]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.07:672][222]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.09:428][242]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.10:732][248]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.12:870][273]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.15:062][287]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.17:072][310]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.18:194][315]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.18:241][315]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.21:754][355]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.23:033][361]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.24:678][379]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.25:935][386]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.25:983][386]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.27:809][407]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.43:721][542]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.43:769][542]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.44:834][554]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.46:114][560]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.46:166][560]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.47:371][573]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.48:436][577]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.49:808][592]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.51:046][600]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.51:275][602]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.11.53:534][627]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.12.06:328][737]LogHttp:Warning: 000001ABCBECDC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.12.06:328][737]LogHttp:Warning: 000001ABCBECDC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.12.06:328][737]LogHttp:Warning: 000001ABCBECDC00: libcurl info message cache 1 (Closing connection 175)
+[2017.03.20-06.12.08:788][754]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.12.11:258][781]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.13.07:881][257]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2017.03.20-06.13.08:078][258]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2017.03.20-06.13.10:172][281]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2017.03.20-06.14.06:863][775]LogHttp:Warning: 000001ABC7C0E200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.14.06:863][775]LogHttp:Warning: 000001ABC7C0E200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.14.06:863][775]LogHttp:Warning: 000001ABC7C0E200: libcurl info message cache 1 (Closing connection 176)
+[2017.03.20-06.14.14:100][852]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.14.23:012][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Pipe_180)
+[2017.03.20-06.14.34:633][ 29]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.14.40:712][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Pipe_180)
+[2017.03.20-06.14.50:474][165]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.14.59:913][224]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.14.59:948][224]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.15.04:660][281]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.15.34:552][539]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.15.34:693][539]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.15.38:604][584]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.15.56:091][735]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.15.58:853][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock35)
+[2017.03.20-06.16.06:407][822]LogHttp:Warning: 000001ABE2FC8D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.16.06:407][822]LogHttp:Warning: 000001ABE2FC8D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.16.06:407][822]LogHttp:Warning: 000001ABE2FC8D00: libcurl info message cache 1 (Closing connection 177)
+[2017.03.20-06.16.26:889][  1]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.16.26:989][  1]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.16.32:138][ 82]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.16.35:119][106]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.16.35:195][106]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.16.41:038][172]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.07:677][403]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.07:727][403]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.10:782][439]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.17:040][486]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.18:734][505]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.23:859][546]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.17.25:358][562]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.18.06:229][922]LogHttp:Warning: 000001ABC7C0F700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.18.06:229][922]LogHttp:Warning: 000001ABC7C0F700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.18.06:229][922]LogHttp:Warning: 000001ABC7C0F700: libcurl info message cache 1 (Closing connection 178)
+[2017.03.20-06.18.17:527][ 23]Cmd: DELETE
+[2017.03.20-06.18.17:527][ 23]Cmd: ACTOR DELETE
+[2017.03.20-06.18.17:530][ 23]LogEditorActor: Deleted Actor: Character
+[2017.03.20-06.18.17:663][ 23]LogEditorActor: Deleted 1 Actors (0.135 secs)
+[2017.03.20-06.18.35:675][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock17)
+[2017.03.20-06.18.38:619][231]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Rock15)
+[2017.03.20-06.18.44:943][285]Cmd: TRANSACTION UNDO
+[2017.03.20-06.18.44:943][285]LogEditorTransaction: Undo Move Actors
+[2017.03.20-06.19.06:339][474]LogHttp:Warning: 000001ABC4CACE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.19.06:340][474]LogHttp:Warning: 000001ABC4CACE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.19.06:340][474]LogHttp:Warning: 000001ABC4CACE80: libcurl info message cache 1 (Closing connection 179)
+[2017.03.20-06.19.58:099][973]Cmd: TRANSACTION UNDO
+[2017.03.20-06.19.58:099][973]LogEditorTransaction: Undo Scale Actors
+[2017.03.20-06.19.58:159][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock24_92.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.19.58:171][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock36_143.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.19.58:173][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock18_74.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.19.58:185][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Shape_Plane_40.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.19.58:229][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PointLight_2.BillboardComponent_5) Component already registered.
+[2017.03.20-06.19.58:232][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock12_56.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.19.58:257][973]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock6_17.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:214][ 10]Cmd: TRANSACTION UNDO
+[2017.03.20-06.20.02:214][ 10]LogEditorTransaction: Undo Scale Actors
+[2017.03.20-06.20.02:245][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock24_92.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:254][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock36_143.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:257][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock18_74.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:290][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Shape_Plane_40.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:300][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PointLight_2.BillboardComponent_5) Component already registered.
+[2017.03.20-06.20.02:303][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock12_56.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.02:313][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock6_17.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:399][ 33]Cmd: TRANSACTION UNDO
+[2017.03.20-06.20.04:399][ 33]LogEditorTransaction: Undo Scale Actors
+[2017.03.20-06.20.04:471][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock24_92.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:481][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock36_143.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:484][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock18_74.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:492][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Shape_Plane_40.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:527][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PointLight_2.BillboardComponent_5) Component already registered.
+[2017.03.20-06.20.04:530][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock12_56.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.04:537][ 33]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.SM_Rock6_17.StaticMeshComponent0) Component already registered.
+[2017.03.20-06.20.06:469][ 49]LogHttp:Warning: 000001ABBC6B3400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.20.06:469][ 49]LogHttp:Warning: 000001ABBC6B3400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.20.06:469][ 49]LogHttp:Warning: 000001ABBC6B3400: libcurl info message cache 1 (Closing connection 180)
+[2017.03.20-06.20.15:924][129]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.20.25:668][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.20.28:552][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.20.29:481][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock7)
+[2017.03.20-06.20.30:351][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock11)
+[2017.03.20-06.20.45:644][394]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:645][394]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:669][394]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:670][394]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:725][395]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:725][395]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:750][395]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:750][395]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:781][396]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:781][396]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:801][396]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:805][396]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:835][397]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:835][397]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:864][397]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:864][397]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:898][398]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:898][398]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:919][398]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:919][398]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:947][399]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:947][399]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:973][399]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.45:974][399]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:008][400]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:008][400]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:029][400]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:029][400]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:058][401]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:058][401]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:082][401]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:083][401]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:119][402]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:119][402]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:140][402]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:141][402]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:170][403]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:170][403]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:195][403]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:196][403]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:238][404]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:238][404]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:260][404]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:261][404]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:293][405]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:293][405]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:318][405]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:320][405]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:384][406]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:385][406]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:407][406]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:407][406]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:432][407]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:433][407]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:453][407]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:453][407]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:516][408]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:516][408]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:537][408]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:537][408]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:570][409]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:570][409]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:592][409]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:592][409]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:635][410]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:635][410]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:656][410]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:657][410]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:697][411]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:697][411]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:717][411]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:717][411]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:753][412]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:754][412]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:779][412]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:779][412]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:814][413]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:814][413]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:835][413]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:835][413]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:864][414]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:864][414]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:893][414]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:893][414]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:926][415]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:927][415]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:948][415]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:949][415]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:978][416]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.46:978][416]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:001][416]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:001][416]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:033][417]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:034][417]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:060][417]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:060][417]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:095][418]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:095][418]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:116][418]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:116][418]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:155][419]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:155][419]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:176][419]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.47:176][419]LogTextFormatter:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2017.03.20-06.20.51:677][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.20.52:965][475]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.20.57:309][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.21.05:861][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.22.06:343][150]LogHttp:Warning: 000001ABACF1FB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.22.06:343][150]LogHttp:Warning: 000001ABACF1FB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.22.06:343][150]LogHttp:Warning: 000001ABACF1FB80: libcurl info message cache 1 (Closing connection 181)
+[2017.03.20-06.23.06:628][638]LogHttp:Warning: 000001ABA7711780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.23.06:629][638]LogHttp:Warning: 000001ABA7711780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.23.06:629][638]LogHttp:Warning: 000001ABA7711780: libcurl info message cache 1 (Closing connection 182)
+[2017.03.20-06.24.06:259][192]LogHttp:Warning: 000001ABCBC73D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.24.06:259][192]LogHttp:Warning: 000001ABCBC73D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.24.06:259][192]LogHttp:Warning: 000001ABCBC73D00: libcurl info message cache 1 (Closing connection 183)
+[2017.03.20-06.26.07:639][293]LogHttp:Warning: 000001ABC3437580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.26.07:639][293]LogHttp:Warning: 000001ABC3437580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.26.07:639][293]LogHttp:Warning: 000001ABC3437580: libcurl info message cache 1 (Closing connection 184)
+[2017.03.20-06.27.06:411][839]LogHttp:Warning: 000001ABA7711300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.27.06:411][839]LogHttp:Warning: 000001ABA7711300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.27.06:411][839]LogHttp:Warning: 000001ABA7711300: libcurl info message cache 1 (Closing connection 185)
+[2017.03.20-06.29.06:391][968]LogHttp:Warning: 000001ABC3437A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.29.06:391][968]LogHttp:Warning: 000001ABC3437A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.29.06:391][968]LogHttp:Warning: 000001ABC3437A00: libcurl info message cache 1 (Closing connection 186)
+[2017.03.20-06.30.06:528][526]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.03.20-06.30.23:836][691]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.03.20-06.30.38:109][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.30.39:430][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.31.06:164][ 77]LogHttp:Warning: 000001ABACC34E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.31.06:164][ 77]LogHttp:Warning: 000001ABACC34E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.31.06:164][ 77]LogHttp:Warning: 000001ABACC34E80: libcurl info message cache 1 (Closing connection 187)
+[2017.03.20-06.32.06:224][634]LogHttp:Warning: 000001AB92972F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.32.06:224][634]LogHttp:Warning: 000001AB92972F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.32.06:224][634]LogHttp:Warning: 000001AB92972F80: libcurl info message cache 1 (Closing connection 188)
+[2017.03.20-06.32.38:181][887]LogWorld: Changing Feature Level (Enum) from 2 to 3
+[2017.03.20-06.33.16:704][181]LogContentStreaming: Texture pool size now 600 MB
+[2017.03.20-06.33.16:850][183]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:127446).
+[2017.03.20-06.33.26:739][221]LogContentStreaming: Texture pool size now 800 MB
+[2017.03.20-06.33.26:797][222]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:127450).
+[2017.03.20-06.33.30:064][249]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:127454).
+[2017.03.20-06.33.31:797][264]LogContentStreaming: Texture pool size now 3000 MB
+[2017.03.20-06.33.59:942][487]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:127566).
+[2017.03.20-06.34.05:042][533]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.34.06:279][538]LogHttp:Warning: 000001ABBCF2F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.34.06:279][538]LogHttp:Warning: 000001ABBCF2F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.34.06:279][538]LogHttp:Warning: 000001ABBCF2F100: libcurl info message cache 1 (Closing connection 189)
+[2017.03.20-06.34.47:099][939]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:127701).
+[2017.03.20-06.34.50:774][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock9)
+[2017.03.20-06.34.58:642][ 13]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.03.20-06.36.06:461][388]LogHttp:Warning: 000001ABC0A28880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.36.06:461][388]LogHttp:Warning: 000001ABC0A28880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.36.06:461][388]LogHttp:Warning: 000001ABC0A28880: libcurl info message cache 1 (Closing connection 190)
+[2017.03.20-06.37.03:653][738]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2017.03.20-06.37.06:396][746]LogHttp:Warning: 000001ABBCF94D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.37.06:396][746]LogHttp:Warning: 000001ABBCF94D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.37.06:396][746]LogHttp:Warning: 000001ABBCF94D00: libcurl info message cache 1 (Closing connection 191)
+[2017.03.20-06.37.44:467][127]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:130152).
+[2017.03.20-06.37.44:591][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock11)
+[2017.03.20-06.37.53:379][170]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.37.55:474][178]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.03.20-06.38.12:645][249]LogHttp:Warning: 000001ABAD235F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.38.12:646][249]LogHttp:Warning: 000001ABAD235F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.38.12:646][249]LogHttp:Warning: 000001ABAD235F00: libcurl info message cache 1 (Closing connection 192)
+[2017.03.20-06.39.56:395][791]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132058).
+[2017.03.20-06.39.56:881][792]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.20-06.40.04:230][809]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132062).
+[2017.03.20-06.40.05:001][813]LogContentStreaming: Texture pool size now 600 MB
+[2017.03.20-06.40.06:450][823]LogHttp:Warning: 000001ABCBECD000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.40.06:450][823]LogHttp:Warning: 000001ABCBECD000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.40.06:450][823]LogHttp:Warning: 000001ABCBECD000: libcurl info message cache 1 (Closing connection 193)
+[2017.03.20-06.40.17:324][888]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132066).
+[2017.03.20-06.40.17:836][890]LogContentStreaming: Texture pool size now 800 MB
+[2017.03.20-06.40.18:558][900]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.40.38:664][  2]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132273).
+[2017.03.20-06.40.38:665][  2]LogContentStreaming: Texture pool size now 600 MB
+[2017.03.20-06.40.41:857][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.40.59:614][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.41.18:835][401]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132657).
+[2017.03.20-06.41.20:899][422]LogContentStreaming: Texture pool size now 3000 MB
+[2017.03.20-06.41.28:875][445]LogRenderer: Reallocating scene render targets to support 1088x668 NumSamples 1 (Frame:132665).
+[2017.03.20-06.41.29:507][448]LogHttp:Warning: 000001ABBCF2F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.41.29:507][448]LogHttp:Warning: 000001ABBCF2F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.41.29:507][448]LogHttp:Warning: 000001ABBCF2F280: libcurl info message cache 1 (Closing connection 194)
+[2017.03.20-06.41.40:411][486]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Rock)
+[2017.03.20-06.41.43:662][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.41.44:822][530]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.41.47:216][544]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.41.50:472][567]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.42.23:914][765]LogContentStreaming: Texture pool size now 400 MB
+[2017.03.20-06.42.25:027][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.42.41:855][937]LogWorld: Changing Feature Level (Enum) from 3 to 2
+[2017.03.20-06.43.06:192][119]LogHttp:Warning: 000001ABCBC73400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.43.06:192][119]LogHttp:Warning: 000001ABCBC73400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.43.06:192][119]LogHttp:Warning: 000001ABCBC73400: libcurl info message cache 1 (Closing connection 195)
+[2017.03.20-06.43.14:478][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.03.20-06.43.28:858][300]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.20-06.43.29:879][307]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.03.20-06.43.31:284][318]Cmd: DELETE
+[2017.03.20-06.43.31:284][318]Cmd: ACTOR DELETE
+[2017.03.20-06.43.31:287][318]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.03.20-06.43.31:688][318]LogEditorActor: Deleted 1 Actors (0.404 secs)
+[2017.03.20-06.43.50:513][515]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.43.52:378][532]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.44.06:260][655]LogHttp:Warning: 000001ABBE3C8400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.44.06:260][655]LogHttp:Warning: 000001ABBE3C8400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.44.06:260][655]LogHttp:Warning: 000001ABBE3C8400: libcurl info message cache 1 (Closing connection 196)
+[2017.03.20-06.44.38:525][946]LogTexture:Display: Building textures: T_Rock_Basalt_D_New (AutoDXT)
+[2017.03.20-06.45.08:635][329]LogTexture:Display: Building textures: T_Rock_Basalt_D_New2 (AutoDXT)
+[2017.03.20-06.45.22:338][438]LogTexture:Display: Building textures: T_Ground_Gravel_N (BC5)
+[2017.03.20-06.45.26:493][438]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0451 seconds. Added 1 classes and 2 folders.
+[2017.03.20-06.45.29:298][455]LogHttp:Warning: 000001ABACA66380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.45.29:298][455]LogHttp:Warning: 000001ABACA66380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.45.29:298][455]LogHttp:Warning: 000001ABACA66380: libcurl info message cache 1 (Closing connection 197)
+[2017.03.20-06.45.42:025][567]LogTexture:Display: Building textures: T_Rock_Basalt_D_New3 (AutoDXT)
+[2017.03.20-06.46.00:203][710]LogTexture:Display: Building textures: T_Ground_Gravel_D (AutoDXT)
+[2017.03.20-06.46.35:713][711]LogSavePackage: Save=1141.15ms
+[2017.03.20-06.46.35:714][711]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Minimal_Default_Auto4AD91DD7A449C3828C5C47A824C5006F3.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2017.03.20-06.46.35:719][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2017.03.20-06.46.36:240][711]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 1.996
+[2017.03.20-06.46.36:240][711]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.996
+[2017.03.20-06.46.36:403][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New] ([1] browsable assets)...
+[2017.03.20-06.46.36:640][711]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/T_Rock_Basalt_D_New.T_Rock_Basalt_D_New]
+[2017.03.20-06.46.36:640][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New]
+[2017.03.20-06.46.36:900][711]LogSavePackage: Save=246.17ms
+[2017.03.20-06.46.36:900][711]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New_Auto49CDEB6A3427EA16CB7E839A2CC27CFF2.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New_Auto4.uasset'
+[2017.03.20-06.46.37:025][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New_Auto4.uasset
+[2017.03.20-06.46.37:027][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New2] ([1] browsable assets)...
+[2017.03.20-06.46.37:097][711]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/T_Rock_Basalt_D_New2.T_Rock_Basalt_D_New2]
+[2017.03.20-06.46.37:097][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New2]
+[2017.03.20-06.46.37:223][711]LogSavePackage: Save=39.88ms
+[2017.03.20-06.46.37:223][711]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New2_Auto46E0031B246AB17B5943B2083098E1B6A.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New2_Auto4.uasset'
+[2017.03.20-06.46.37:227][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New2_Auto4.uasset
+[2017.03.20-06.46.37:230][711]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New3] ([1] browsable assets)...
+[2017.03.20-06.46.37:300][711]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/T_Rock_Basalt_D_New3.T_Rock_Basalt_D_New3]
+[2017.03.20-06.46.37:301][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Rock_Basalt_D_New3]
+[2017.03.20-06.46.37:362][711]LogSavePackage: Save=42.02ms
+[2017.03.20-06.46.37:362][711]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New3_Auto460B28A574133C7044B467C9867AF8DF5.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New3_Auto4.uasset'
+[2017.03.20-06.46.37:367][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Autosaves/Game/StarterContent/Textures/T_Rock_Basalt_D_New3_Auto4.uasset
+[2017.03.20-06.46.37:367][711]LogFileHelpers: Auto-saving content packages took 1.123
+[2017.03.20-06.46.42:141][757]LogHttp:Warning: 000001ABE2FCB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.46.42:141][757]LogHttp:Warning: 000001ABE2FCB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.46.42:141][757]LogHttp:Warning: 000001ABE2FCB100: libcurl info message cache 1 (Closing connection 198)
+[2017.03.20-06.47.17:856][171]LogActorFactory: Actor Factory created Cube
+[2017.03.20-06.47.21:459][204]LogActorFactory: Actor Factory created Cube
+[2017.03.20-06.47.31:971][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.03.20-06.47.43:180][399]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.03.20-06.47.43:925][406]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.03.20-06.48.01:798][569]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.03.20-06.48.03:121][581]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Engine/BasicShapes/Cube.Cube] ConvexElem[0] invalid
+[2017.03.20-06.48.06:317][608]LogHttp:Warning: 000001ABC3BD4100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.48.06:317][608]LogHttp:Warning: 000001ABC3BD4100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.48.06:318][608]LogHttp:Warning: 000001ABC3BD4100: libcurl info message cache 1 (Closing connection 199)
+[2017.03.20-06.48.38:093][ 33]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2017.03.20-06.48.53:392][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.03.20-06.49.38:803][546]LogTexture:Display: Building textures: T_Water_M (AutoDXT)
+[2017.03.20-06.50.06:308][712]LogHttp:Warning: 000001ABC20DDA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.50.06:308][712]LogHttp:Warning: 000001ABC20DDA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.50.06:308][712]LogHttp:Warning: 000001ABC20DDA80: libcurl info message cache 1 (Closing connection 200)
+[2017.03.20-06.50.32:862][961]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.20-06.50.33:612][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.03.20-06.50.51:094][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
+[2017.03.20-06.51.18:004][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.03.20-06.52.06:541][774]LogHttp:Warning: 000001ABC3BD4A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.52.06:542][774]LogHttp:Warning: 000001ABC3BD4A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.52.06:542][774]LogHttp:Warning: 000001ABC3BD4A00: libcurl info message cache 1 (Closing connection 201)
+[2017.03.20-06.52.22:316][909]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.52.25:212][935]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.53.00:005][244]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.53.02:251][264]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.53.06:173][299]LogHttp:Warning: 000001ABB593DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.53.06:173][299]LogHttp:Warning: 000001ABB593DF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.53.06:173][299]LogHttp:Warning: 000001ABB593DF00: libcurl info message cache 1 (Closing connection 202)
+[2017.03.20-06.53.42:746][623]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.53.44:977][643]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.54.06:301][834]LogHttp:Warning: 000001ABC4E26C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.54.06:302][834]LogHttp:Warning: 000001ABC4E26C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.54.06:302][834]LogHttp:Warning: 000001ABC4E26C80: libcurl info message cache 1 (Closing connection 203)
+[2017.03.20-06.54.18:241][938]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.54.19:694][951]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.54.38:414][113]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.54.40:435][131]LogActorFactory: Actor Factory created SM_Rock
+[2017.03.20-06.55.11:282][408]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.03.20-06.55.15:187][445]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.20-06.55.18:579][476]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.20-06.55.21:542][503]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.20-06.55.22:972][514]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-06.55.23:091][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.55.23:122][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-06.55.23:385][514]PIE: New page: PIE session: Minimal_Default (Mar 19, 2017, 6:55:23 PM)
+[2017.03.20-06.55.23:427][514]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.03.20-06.55.23:874][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.446764s)
+[2017.03.20-06.55.23:929][514]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.20-06.55.24:016][514]LogPlayLevel: PIE: World Init took: (0.139686s)
+[2017.03.20-06.55.24:033][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.620763s)
+[2017.03.20-06.55.24:332][514]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.20-06.55.24:408][514]LogInit: FAudioDevice initialized.
+[2017.03.20-06.55.25:096][514]LogLoad: Game class is 'GameModeBase'
+[2017.03.20-06.55.25:318][514]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.03.20-00.55.25
+[2017.03.20-06.55.25:390][514]LogWorld: Bringing up level for play took: 0.082735
+[2017.03.20-06.55.26:250][514]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0099 seconds. Added 11 classes and 0 folders.
+[2017.03.20-06.55.26:527][514]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2.939
+[2017.03.20-06.55.26:542][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.55.53:338][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.55.53:721][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.55.59:704][ 56]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.20-06.56.06:344][108]LogHttp:Warning: 000001AB90632C80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.56.06:344][108]LogHttp:Warning: 000001AB90632C80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.56.06:344][108]LogHttp:Warning: 000001AB90632C80: libcurl info message cache 1 (Closing connection 204)
+[2017.03.20-06.56.13:526][170]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.20-06.56.13:625][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.56.13:625][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-06.56.13:626][170]PIE: New page: PIE session: Minimal_Default (Mar 19, 2017, 6:56:13 PM)
+[2017.03.20-06.56.13:626][170]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.03.20-06.56.13:679][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052410s)
+[2017.03.20-06.56.13:684][170]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.20-06.56.13:685][170]LogPlayLevel: PIE: World Init took: (0.005486s)
+[2017.03.20-06.56.13:685][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.059295s)
+[2017.03.20-06.56.13:780][170]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.20-06.56.13:813][170]LogInit: FAudioDevice initialized.
+[2017.03.20-06.56.13:906][170]LogLoad: Game class is 'GameModeBase'
+[2017.03.20-06.56.13:924][170]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.03.20-00.56.13
+[2017.03.20-06.56.13:925][170]LogWorld: Bringing up level for play took: 0.016807
+[2017.03.20-06.56.13:932][170]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.357
+[2017.03.20-06.56.13:934][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.56.21:752][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.56.21:963][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.20-06.56.43:219][447]Cmd: DELETE
+[2017.03.20-06.56.43:219][447]Cmd: ACTOR DELETE
+[2017.03.20-06.56.43:224][447]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2017.03.20-06.56.43:324][447]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2017.03.20-06.57.11:254][683]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0027 seconds. Added 15 classes and 2 folders.
+[2017.03.20-06.57.11:320][683]LogInit: Transaction tracking system initialized
+[2017.03.20-06.57.11:337][683]EditorErrors: New page: Matinee Initialization
+[2017.03.20-06.57.13:618][686]LogHttp:Warning: 000001ABACA7EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.57.13:618][686]LogHttp:Warning: 000001ABACA7EE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.57.13:618][686]LogHttp:Warning: 000001ABACA7EE00: libcurl info message cache 1 (Closing connection 205)
+[2017.03.20-06.58.34:241][270]LogHttp:Warning: 000001ABA6511D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-06.58.34:241][270]LogHttp:Warning: 000001ABA6511D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-06.58.34:241][270]LogHttp:Warning: 000001ABA6511D80: libcurl info message cache 1 (Closing connection 206)
+[2017.03.20-07.00.06:594][839]LogHttp:Warning: 000001ABAAC35C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-07.00.06:594][839]LogHttp:Warning: 000001ABAAC35C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-07.00.06:594][839]LogHttp:Warning: 000001ABAAC35C00: libcurl info message cache 1 (Closing connection 207)
+[2017.03.20-07.02.06:292][618]LogHttp:Warning: 000001ABBCF97B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-07.02.06:292][618]LogHttp:Warning: 000001ABBCF97B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-07.02.06:292][618]LogHttp:Warning: 000001ABBCF97B80: libcurl info message cache 1 (Closing connection 208)
+[2017.03.20-07.02.30:133][142]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.03.20-07.03.39:731][361]LogExit: Transaction tracking system shut down
+[2017.03.20-07.03.40:838][361]LogSavePackage: Save=1068.04ms
+[2017.03.20-07.03.40:839][361]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Minimal_DefaultA53D17A24F508440AC9BB3B784F599D3.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.03.20-07.03.41:051][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.03.20-07.03.46:445][391]LogSavePackage: Save=50.07ms
+[2017.03.20-07.03.46:445][391]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New1602A99B4570CFB4B0C177831920946C.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New.uasset'
+[2017.03.20-07.03.46:480][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New.uasset
+[2017.03.20-07.03.46:628][391]LogSavePackage: Save=48.20ms
+[2017.03.20-07.03.46:628][391]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New2A6C8607C47D528A6B83B33B9B6B3B8E8.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New2.uasset'
+[2017.03.20-07.03.46:652][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New2.uasset
+[2017.03.20-07.03.46:845][391]LogSavePackage: Save=50.17ms
+[2017.03.20-07.03.46:845][391]LogSavePackage: Moving '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/T_Rock_Basalt_D_New3CCB739484169E43F802AAD9DA6C55EF0.tmp' to '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New3.uasset'
+[2017.03.20-07.03.46:879][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/StarterContent/Textures/T_Rock_Basalt_D_New3.uasset
+[2017.03.20-07.03.48:870][392]Cmd: QUIT_EDITOR
+[2017.03.20-07.03.52:215][392]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.20-07.03.52:723][392]LogExit: Preparing to exit.
+[2017.03.20-07.03.54:764][392]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/' was aborted.
+[2017.03.20-07.03.56:981][392]LogExit: Editor shut down
+[2017.03.20-07.03.57:055][392]LogExit: Transaction tracking system shut down
+[2017.03.20-07.04.08:964][392]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.20-07.04.08:966][392]LogExit: Object subsystem successfully closed.
+[2017.03.20-07.04.11:369][392]LogD3D11RHI: Shutdown
+[2017.03.20-07.04.11:378][392]LogD3D11RHI: CleanupD3DDevice
+[2017.03.20-07.04.14:237][392]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.20-07.04.29:893][392]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.20-07.04.29:893][392]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9549E96C-49AA-108E-A0BF-94BC0D9BA327%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=16da2cd44f2be9289645fcae61fbbaed%7C338dfd4c74514d8b918ac5270183860e%7Cddfd98a5-d839-4321-83d1-52d3e8a63764&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.20-07.04.29:893][392]LogHttp:Warning: 000001ABC36A7E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.03.20-07.04.29:893][392]LogHttp:Warning: 000001ABC36A7E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.03.20-07.04.29:893][392]LogHttp:Warning: 000001ABC36A7E80: libcurl info message cache 1 (Closing connection 209)
+[2017.03.20-07.04.30:849][392]LogModuleManager: Shutting down and abandoning module DistCurveEditor (249)
+[2017.03.20-07.04.30:928][392]LogModuleManager: Shutting down and abandoning module Matinee (248)
+[2017.03.20-07.04.30:928][392]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (247)
+[2017.03.20-07.04.30:928][392]LogModuleManager: Shutting down and abandoning module TextureEditor (246)
+[2017.03.20-07.04.31:048][392]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2017.03.20-07.04.31:048][392]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (244)
+[2017.03.20-07.04.31:135][392]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
+[2017.03.20-07.04.31:135][392]LogModuleManager: Shutting down and abandoning module PortalProxies (242)
+[2017.03.20-07.04.31:135][392]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.03.20-07.04.31:148][392]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.03.20-07.04.31:239][392]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.03.20-07.04.31:351][392]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.03.20-07.04.31:969][392]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.20-07.04.32:202][392]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.03.20-07.04.32:202][392]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.03.20-07.04.32:202][392]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.03.20-07.04.32:367][392]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/Collections/' was aborted.
+[2017.03.20-07.04.32:367][392]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/Developers/Christian/Collections/' was aborted.
+[2017.03.20-07.04.32:367][392]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/TheShadowRealm/Saved/Collections/' was aborted.
+[2017.03.20-07.04.32:368][392]LogModuleManager: Shutting down and abandoning module SceneOutliner (234)
+[2017.03.20-07.04.32:368][392]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.03.20-07.04.32:637][392]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.03.20-07.04.32:637][392]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.03.20-07.04.33:152][392]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.03.20-07.04.33:152][392]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.03.20-07.04.33:152][392]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.03.20-07.04.33:152][392]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.03.20-07.04.33:152][392]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.03.20-07.04.33:254][392]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.03.20-07.04.35:687][392]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.03.20-07.04.35:804][392]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.03.20-07.04.35:999][392]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.03.20-07.04.36:166][392]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.03.20-07.04.36:406][392]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.03.20-07.04.36:626][392]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.03.20-07.04.36:913][392]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.03.20-07.04.36:969][392]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.03.20-07.04.36:969][392]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.03.20-07.04.36:969][392]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.03.20-07.04.37:015][392]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.03.20-07.04.37:015][392]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.03.20-07.04.37:454][392]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.03.20-07.04.37:651][392]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.03.20-07.04.37:718][392]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.03.20-07.04.37:784][392]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.03.20-07.04.37:911][392]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.03.20-07.04.37:911][392]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.03.20-07.04.38:425][392]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.03.20-07.04.38:507][392]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.03.20-07.04.38:508][392]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.03.20-07.04.38:508][392]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.03.20-07.04.38:508][392]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.03.20-07.04.38:647][392]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.03.20-07.04.38:686][392]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.03.20-07.04.38:720][392]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.03.20-07.04.38:747][392]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.03.20-07.04.38:770][392]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.03.20-07.04.38:823][392]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.03.20-07.04.38:920][392]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.03.20-07.04.38:920][392]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.03.20-07.04.38:987][392]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.03.20-07.04.39:012][392]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.03.20-07.04.39:012][392]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.03.20-07.04.39:036][392]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.03.20-07.04.39:036][392]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.03.20-07.04.39:038][392]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.03.20-07.04.39:080][392]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.03.20-07.04.39:080][392]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.03.20-07.04.39:099][392]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.03.20-07.04.39:534][392]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.03.20-07.04.39:625][392]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.03.20-07.04.39:689][392]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.03.20-07.04.39:689][392]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.03.20-07.04.39:961][392]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.03.20-07.04.40:222][392]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.03.20-07.04.40:558][392]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.03.20-07.04.40:902][392]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.03.20-07.04.40:902][392]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.03.20-07.04.40:928][392]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.03.20-07.04.40:930][392]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.03.20-07.04.40:930][392]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.03.20-07.04.41:109][392]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.03.20-07.04.41:378][392]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.03.20-07.04.41:379][392]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.03.20-07.04.41:384][392]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.03.20-07.04.41:402][392]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.03.20-07.04.41:502][392]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.03.20-07.04.41:975][392]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.03.20-07.04.42:055][392]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.03.20-07.04.42:088][392]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.03.20-07.04.42:107][392]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.03.20-07.04.42:108][392]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.03.20-07.04.42:137][392]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.03.20-07.04.42:137][392]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.03.20-07.04.42:137][392]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.03.20-07.04.42:137][392]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.03.20-07.04.42:137][392]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.03.20-07.04.42:138][392]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.03.20-07.04.42:179][392]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.03.20-07.04.42:180][392]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.03.20-07.04.42:442][392]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.03.20-07.04.42:529][392]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.03.20-07.04.42:544][392]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.03.20-07.04.42:544][392]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.03.20-07.04.42:598][392]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.03.20-07.04.42:614][392]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.03.20-07.04.42:614][392]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.03.20-07.04.42:614][392]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.03.20-07.04.42:614][392]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.03.20-07.04.42:657][392]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.03.20-07.04.42:684][392]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.03.20-07.04.42:724][392]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.03.20-07.04.42:863][392]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.03.20-07.04.43:279][392]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.03.20-07.04.43:279][392]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.03.20-07.04.43:279][392]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.03.20-07.04.43:279][392]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.03.20-07.04.43:398][392]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.03.20-07.04.43:466][392]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.03.20-07.04.43:466][392]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.03.20-07.04.43:466][392]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.03.20-07.04.43:466][392]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.03.20-07.04.43:757][392]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.03.20-07.04.44:075][392]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.03.20-07.04.44:955][392]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.03.20-07.04.45:258][392]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.03.20-07.04.45:500][392]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.03.20-07.04.45:500][392]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.03.20-07.04.45:897][392]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.03.20-07.04.46:424][392]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.03.20-07.04.46:737][392]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.03.20-07.04.47:141][392]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.03.20-07.04.47:242][392]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.03.20-07.04.47:347][392]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.03.20-07.04.47:465][392]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.03.20-07.04.47:465][392]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.03.20-07.04.47:668][392]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.03.20-07.04.47:971][392]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.03.20-07.04.48:050][392]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.03.20-07.04.48:422][392]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.03.20-07.04.48:428][392]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.03.20-07.04.48:741][392]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.20-07.04.51:019][392]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.20-07.04.52:036][392]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.20-07.04.52:037][392]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.20-07.04.52:139][392]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.20-07.04.52:287][392]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.20-07.04.54:082][392]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.20-07.04.54:082][392]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.20-07.04.54:115][392]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.20-07.04.54:126][392]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.20-07.04.54:126][392]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.20-07.04.54:126][392]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.20-07.04.54:166][392]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.20-07.04.54:185][392]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.20-07.04.54:203][392]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.20-07.04.54:270][392]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.20-07.04.54:354][392]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.20-07.04.54:354][392]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.20-07.04.54:388][392]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.20-07.04.54:442][392]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.20-07.04.54:472][392]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.20-07.04.54:513][392]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.20-07.04.54:514][392]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.20-07.04.54:636][392]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.20-07.04.54:654][392]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.20-07.04.54:655][392]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.20-07.04.54:655][392]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.20-07.04.54:655][392]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.20-07.04.54:655][392]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.20-07.04.54:655][392]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.20-07.04.54:657][392]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Christian/Documents/Unreal Projects/TheShadowRealm/Content/' was aborted.
+[2017.03.20-07.04.54:660][392]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.20-07.04.54:678][392]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.20-07.04.55:144][392]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.20-07.04.55:144][392]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.20-07.04.55:157][392]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.20-07.04.55:166][392]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.20-07.04.55:170][392]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.20-07.04.55:195][392]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.20-07.04.55:216][392]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.20-07.04.55:312][392]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.20-07.04.55:486][392]LogDerivedDataCache: Shutdown
+[2017.03.20-07.04.55:486][392]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.20-07.04.55:500][392]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.20-07.04.55:508][392]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.20-07.04.55:516][392]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.20-07.04.55:530][392]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.20-07.04.55:537][392]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.20-07.04.55:537][392]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.20-07.04.55:537][392]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.20-07.04.55:577][392]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.20-07.04.55:577][392]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.20-07.04.55:585][392]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.20-07.04.55:596][392]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.20-07.04.55:596][392]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.20-07.04.55:596][392]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.20-07.04.55:596][392]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.20-07.04.55:597][392]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.20-07.04.55:608][392]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.20-07.04.55:615][392]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.20-07.04.55:630][392]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.20-07.04.55:637][392]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.20-07.04.55:641][392]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.20-07.04.55:649][392]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.20-07.04.55:660][392]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.20-07.04.55:665][392]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.20-07.04.55:682][392]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.20-07.04.55:693][392]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.20-07.04.55:693][392]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.20-07.04.55:703][392]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.20-07.04.55:745][392]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.20-07.04.55:763][392]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.20-07.04.55:763][392]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.20-07.04.55:773][392]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.20-07.04.55:789][392]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.20-07.04.55:799][392]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.20-07.04.55:805][392]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.20-07.04.55:820][392]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.20-07.04.55:837][392]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.20-07.04.55:837][392]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.20-07.04.55:849][392]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.20-07.04.55:849][392]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.20-07.04.55:849][392]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.20-07.04.55:858][392]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.20-07.04.55:878][392]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.20-07.04.55:918][392]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.20-07.04.55:918][392]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.20-07.04.55:938][392]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.20-07.04.55:938][392]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.20-07.04.55:938][392]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.20-07.04.55:938][392]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.20-07.04.56:039][392]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.20-07.04.56:051][392]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.20-07.04.56:051][392]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.20-07.04.56:062][392]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.20-07.04.56:079][392]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.20-07.04.56:079][392]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.20-07.04.56:079][392]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.20-07.04.56:088][392]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.20-07.04.56:102][392]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.20-07.04.56:113][392]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.20-07.04.56:199][392]LogExit: Exiting.
+[2017.03.20-07.04.56:359][392]Log file closed, 03/20/17 01:04:56
