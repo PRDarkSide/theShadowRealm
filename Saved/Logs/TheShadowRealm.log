@@ -1,9 +1,9 @@
-﻿Log file open, 04/02/17 22:20:04
+﻿Log file open, 04/08/17 20:03:53
 LogInit:Display: Running engine for game: TheShadowRealm
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1402436667) SRandInit(1402436667).
+LogInit:Display: RandInit(1329456064) SRandInit(1329456064).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.616428
+LogStats: Stats thread started at 0.393574
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -138,789 +138,152 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line: -EpicPortal 
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.03-04.20.17:801][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.03-04.20.17:801][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.03-04.20.18:032][  0]LogInit: Computer: CASHSHERIDAN
-[2017.04.03-04.20.18:032][  0]LogInit: User: Christian
-[2017.04.03-04.20.18:032][  0]LogInit: CPU Page size=65536, Cores=2
-[2017.04.03-04.20.18:032][  0]LogInit: High frequency timer resolution =1.266833 MHz
-[2017.04.03-04.20.18:033][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx)
-[2017.04.03-04.20.18:033][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.03-04.20.18:033][  0]LogMemory: Process Physical Memory: 262.46 MB used, 262.46 MB peak
-[2017.04.03-04.20.18:033][  0]LogMemory: Process Virtual Memory: 262.31 MB used, 262.31 MB peak
-[2017.04.03-04.20.18:033][  0]LogMemory: Physical Memory: 4421.02 MB used,  3357.24 MB free, 7778.26 MB total
-[2017.04.03-04.20.18:033][  0]LogMemory: Virtual Memory: 674.28 MB used,  3357.24 MB free, 134217728.00 MB total
-[2017.04.03-04.20.18:333][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.03-04.20.31:886][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.03-04.20.32:009][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6310 Graphics' (Feature Level 11_0)
-[2017.04.03-04.20.32:009][  0]LogD3D11RHI:       369/0/3712 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.04.03-04.20.32:022][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.03-04.20.32:022][  0]LogD3D11RHI:       0/0/3889 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.03-04.20.32:022][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.03-04.20.32:047][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.03-04.20.32:047][  0]LogD3D11RHI:     GPU DeviceId: 0x9802 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.03-04.20.32:047][  0]LogWindows: EnumDisplayDevices:
-[2017.04.03-04.20.32:049][  0]LogWindows:    0. 'AMD Radeon HD 6310 Graphics' (P:1 D:1)
-[2017.04.03-04.20.32:061][  0]LogWindows:    1. 'AMD Radeon HD 6310 Graphics' (P:0 D:0)
-[2017.04.03-04.20.32:072][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2017.04.03-04.20.32:072][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6310 Graphics
-[2017.04.03-04.20.32:072][  0]LogD3D11RHI:   Driver Version: 15.201.1151.0 (internal:15.201.1151.0, unified:15.201.1151.0)
-[2017.04.03-04.20.32:072][  0]LogD3D11RHI:      Driver Date: 8-21-2015
-[2017.04.03-04.20.32:072][  0]LogRHI: Texture pool is 258 MB (70% of 369 MB)
-[2017.04.03-04.20.32:146][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.03-04.20.32:232][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
-[2017.04.03-04.20.32:243][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Intermediate/Shaders/WorkingDirectory/1292/).
-[2017.04.03-04.20.32:245][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christian/AppData/Local/Temp/UnrealShaderWorkingDir/95B2F27247A00D589266FC8A3B42BFE0/'.
-[2017.04.03-04.20.32:245][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.03-04.20.54:820][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.03-04.20.57:334][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.03-04.20.59:750][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.03-04.21.02:483][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.03-04.21.04:937][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.03-04.21.07:421][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.03-04.21.09:838][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.03-04.21.12:336][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.03-04.21.14:824][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.03-04.21.17:486][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.03-04.21.19:896][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.03-04.21.22:032][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.03-04.21.24:497][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.03-04.21.28:012][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.03-04.21.30:882][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.03-04.21.38:354][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.03-04.21.38:354][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.03-04.21.42:827][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.03-04.21.45:598][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.03-04.21.46:702][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.03-04.21.48:568][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.03-04.21.50:411][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.03-04.21.52:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.03-04.21.54:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.03-04.21.54:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.03-04.22.10:472][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.03-04.22.11:886][  0]LogDerivedDataCache: Loaded boot cache 1.41s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.03-04.22.11:886][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.03-04.22.11:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.03-04.22.11:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.03-04.22.11:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.03-04.22.11:887][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.03-04.22.12:004][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.03-04.22.12:046][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.03-04.22.14:220][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.03-04.22.14:263][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.03-04.22.19:439][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.03-04.22.21:288][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.03-04.22.23:013][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.03-04.22.23:013][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.03-04.22.23:013][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.03-04.22.30:610][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: theshadowrealm, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2850033435
-[2017.04.03-04.22.31:696][  0]LogAssetRegistry: FAssetRegistry took 0.0311 seconds to start up
-[2017.04.03-04.22.33:079][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.373348 seconds
-[2017.04.03-04.22.33:117][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.03-04.22.33:117][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.04.03-04.22.33:117][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.03-04.22.36:074][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.03-04.23.06:870][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.03-04.23.06:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.03-04.23.06:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.03-04.24.11:097][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.03-04.24.12:173][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.03-04.24.23:002][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.03-04.24.36:089][  0]SourceControl: Info Source control is disabled
-[2017.04.03-04.24.36:109][  0]SourceControl: Info Source control is disabled
-[2017.04.03-04.24.38:014][  0]SourceControl: Info Source control is disabled
-[2017.04.03-04.25.27:441][  0]LogEngine: Initializing Engine...
-[2017.04.03-04.25.27:449][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.03-04.25.34:161][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.03-04.25.34:247][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.25.35:031][  0]LogInit: FAudioDevice initialized.
-[2017.04.03-04.25.35:201][  0]LogDerivedDataCache: Saved boot cache 0.17s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.03-04.25.35:274][  0]LogInit: Texture streaming: Enabled
-[2017.04.03-04.25.46:234][  0]LogInit: Transaction tracking system initialized
-[2017.04.03-04.26.05:914][  0]BlueprintLog: New page: Editor Load
-[2017.04.03-04.26.54:175][  0]LocalizationService: Info Localization service is disabled
-[2017.04.03-04.27.34:247][  0]LogConsoleResponse:Display: 
-[2017.04.03-04.27.38:595][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.03-04.27.38:595][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.03-04.27.40:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/' took 0.16s
-[2017.04.03-04.28.19:149][  0]LogSourceControl: Attempting "svn info --xml "../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.28.20:982][  0]LogSourceControl: Unable to detect system-level svn binary.
-[2017.04.03-04.28.20:982][  0]LogSourceControl: Using path C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/ThirdParty/svn/Win64/svn.exe for svn operations
-[2017.04.03-04.28.23:278][  0]SourceControl:Warning: Warning Successfully connected to repository https://github.com/PRDarkSide/theShadowRealm
-[2017.04.03-04.28.23:280][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.03-04.28.23:336][  0]LightingResults: New page: Lighting Build
-[2017.04.03-04.28.26:086][  0]MapCheck: New page: Map Check
-[2017.04.03-04.28.26:086][  0]LightingResults: New page: Lighting Build
-[2017.04.03-04.28.32:478][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.28.33:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.03-04.28.33:579][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.03-04.28.34:859][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,278.704ms to complete.
-[2017.04.03-04.28.34:860][  0]LogFileHelpers: Loading map 'Minimal_Default' took 11.580
-[2017.04.03-04.28.36:018][  0]LogCollectionManager: Loaded 0 collections in 0.007607 seconds
-[2017.04.03-04.28.37:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Saved/Collections/' took 0.01s
-[2017.04.03-04.28.37:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Developers/Christian/Collections/' took 0.01s
-[2017.04.03-04.28.37:725][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Collections/' took 0.01s
-[2017.04.03-04.28.37:725][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
-[2017.04.03-04.28.37:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0555 seconds. Added 2190 classes and 428 folders.
-[2017.04.03-04.28.39:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.03-04.28.39:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.03-04.28.39:279][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0051 seconds. Added 13 classes and 0 folders.
-[2017.04.03-04.28.41:668][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0049 seconds. Added 0 classes and 0 folders.
-[2017.04.03-04.28.45:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0042 seconds. Added 0 classes and 0 folders.
-[2017.04.03-04.28.47:782][  0]LogSourceControl: Attempting "svn info "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --xml --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.28.47:782][  0]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.28.47:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0049 seconds. Added 1 classes and 2 folders.
-[2017.04.03-04.28.48:962][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.03-04.28.49:141][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.03-04.28.51:069][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0056 seconds. Added 1 classes and 2 folders.
-[2017.04.03-04.28.51:071][  0]LogLoad: (Engine Initialization) Total time: 546.65 seconds
-[2017.04.03-04.28.51:072][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.55 seconds
-[2017.04.03-04.28.51:072][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.04.03-04.28.51:427][  0]LogOcInput: OculusInput pre-init called
-[2017.04.03-04.28.51:454][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.04.03-04.28.53:463][  1]LogRenderer: Reallocating scene render targets to support 820x628 NumSamples 1 (Frame:2).
-[2017.04.03-04.28.58:320][  8]LogAssetRegistry: Asset discovery search completed in 386.6552 seconds
-[2017.04.03-04.28.58:321][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.04.03-04.28.58:321][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2017.04.03-04.29.08:963][ 40]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Props/SM_Rock.uasset" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.29.12:239][ 49]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.31.56:827][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_3
-[2017.04.03-04.31.56:828][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  K2Node_InputAxisEvent_55
-[2017.04.03-04.31.56:829][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  K2Node_InputAxisEvent_43
-[2017.04.03-04.31.56:830][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  K2Node_InputAction_60
-[2017.04.03-04.31.56:831][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  K2Node_InputAxisEvent_50
-[2017.04.03-04.31.56:833][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_95
-[2017.04.03-04.31.57:127][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.44] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 118 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.31.57:127][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.71] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.31.57:128][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.71] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.31.57:214][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_3
-[2017.04.03-04.31.57:215][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  K2Node_InputAxisEvent_55
-[2017.04.03-04.31.57:216][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  K2Node_InputAxisEvent_43
-[2017.04.03-04.31.57:217][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  K2Node_InputAction_60
-[2017.04.03-04.31.57:218][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  K2Node_InputAxisEvent_50
-[2017.04.03-04.31.57:220][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_95
-[2017.04.03-04.31.57:242][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.82] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 100 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.31.57:243][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.82] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.31.57:243][ 72]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0732.82] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.03-04.32.01:855][ 78]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.32.16:244][144]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.32.19:639][160]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.32.26:993][229]SourceControl:Error: Error svn: warning: W160042: Path 'Minimal_Default.umap' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.32.26:993][229]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.32.31:700][275]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.32.31:962][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.32.32:028][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.32.32:541][275]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:32:32 PM)
-[2017.04.03-04.32.32:551][275]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.32.33:284][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.731777s)
-[2017.04.03-04.32.33:287][275]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.32.33:403][275]LogPlayLevel: PIE: World Init took: (0.119391s)
-[2017.04.03-04.32.33:419][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.867908s)
-[2017.04.03-04.32.34:068][275]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.32.34:135][275]LogInit: FAudioDevice initialized.
-[2017.04.03-04.32.34:885][275]LogLoad: Game class is 'GameModeBase'
-[2017.04.03-04.32.35:824][275]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.32.35
-[2017.04.03-04.32.36:396][275]LogWorld: Bringing up level for play took: 0.750010
-[2017.04.03-04.32.39:124][275]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0044 seconds. Added 11 classes and 0 folders.
-[2017.04.03-04.32.39:576][275]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 8.137
-[2017.04.03-04.32.39:578][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.32.54:955][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.32.55:539][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.33.33:747][927]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.04.03-04.33.41:105][992]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.04.03-04.33.43:880][ 21]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.33.44:005][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.33.44:005][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.33.44:006][ 21]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:33:44 PM)
-[2017.04.03-04.33.44:007][ 21]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.33.44:076][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068846s)
-[2017.04.03-04.33.44:079][ 21]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.33.44:080][ 21]LogPlayLevel: PIE: World Init took: (0.004553s)
-[2017.04.03-04.33.44:081][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.074355s)
-[2017.04.03-04.33.44:254][ 21]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.33.44:327][ 21]LogInit: FAudioDevice initialized.
-[2017.04.03-04.33.44:420][ 21]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.33.44:442][ 21]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.33.44
-[2017.04.03-04.33.44:446][ 21]LogWorld: Bringing up level for play took: 0.023632
-[2017.04.03-04.33.44:489][ 21]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.049
-[2017.04.03-04.33.44:490][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.33.49:638][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.33.49:994][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.34.15:436][439]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.04.03-04.34.23:926][566]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.34.29:465][643]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.34.38:689][776]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.34.41:129][812]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.34.45:714][878]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.04.03-04.34.46:895][890]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.04.03-04.34.50:922][948]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.34.58:344][ 47]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.03:812][119]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.12:181][244]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.17:202][312]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.19:921][347]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.24:800][406]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.27:674][446]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.34:975][545]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.39:678][613]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.35.41:166][631]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.35.41:277][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.35.41:278][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.35.41:278][631]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:35:41 PM)
-[2017.04.03-04.35.41:278][631]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.35.41:345][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066958s)
-[2017.04.03-04.35.41:349][631]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.35.41:350][631]LogPlayLevel: PIE: World Init took: (0.004151s)
-[2017.04.03-04.35.41:351][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.072204s)
-[2017.04.03-04.35.41:484][631]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.35.41:589][631]LogInit: FAudioDevice initialized.
-[2017.04.03-04.35.41:663][631]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.35.41:684][631]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.35.41
-[2017.04.03-04.35.41:687][631]LogWorld: Bringing up level for play took: 0.021531
-[2017.04.03-04.35.41:897][631]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.457
-[2017.04.03-04.35.41:898][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.35.47:976][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.35.48:133][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.35.58:193][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock13)
-[2017.04.03-04.35.58:520][807]Cmd: SELECT NONE
-[2017.04.03-04.36.01:049][838]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.36.01:187][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.01:187][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.36.01:188][838]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:36:01 PM)
-[2017.04.03-04.36.01:188][838]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.36.01:280][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091415s)
-[2017.04.03-04.36.01:282][838]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.36.01:283][838]LogPlayLevel: PIE: World Init took: (0.003190s)
-[2017.04.03-04.36.01:284][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.095390s)
-[2017.04.03-04.36.01:390][838]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.36.01:459][838]LogInit: FAudioDevice initialized.
-[2017.04.03-04.36.01:528][838]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.36.01:551][838]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.36.01
-[2017.04.03-04.36.01:554][838]LogWorld: Bringing up level for play took: 0.023122
-[2017.04.03-04.36.01:566][838]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.126
-[2017.04.03-04.36.01:567][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.21:066][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.21:267][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.34:451][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock37)
-[2017.04.03-04.36.38:280][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock38)
-[2017.04.03-04.36.42:246][341]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.36.42:353][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.42:353][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.36.42:353][341]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:36:42 PM)
-[2017.04.03-04.36.42:354][341]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.36.42:420][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066081s)
-[2017.04.03-04.36.42:423][341]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.36.42:423][341]LogPlayLevel: PIE: World Init took: (0.003292s)
-[2017.04.03-04.36.42:424][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.070187s)
-[2017.04.03-04.36.42:538][341]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.36.42:610][341]LogInit: FAudioDevice initialized.
-[2017.04.03-04.36.42:677][341]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.36.42:697][341]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.36.42
-[2017.04.03-04.36.42:700][341]LogWorld: Bringing up level for play took: 0.021238
-[2017.04.03-04.36.42:713][341]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.273
-[2017.04.03-04.36.42:714][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.50:344][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.50:606][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.36.53:392][449]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEngine.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.37.05:687][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane)
-[2017.04.03-04.37.06:681][605]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2017.04.03-04.37.08:319][618]Cmd: DELETE
-[2017.04.03-04.37.08:319][618]Cmd: ACTOR DELETE
-[2017.04.03-04.37.08:439][618]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
-[2017.04.03-04.37.08:621][618]LogEditorActor: Deleted 1 Actors (0.280 secs)
-[2017.04.03-04.37.09:918][638]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.37.10:035][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.10:036][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.37.10:036][638]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:37:10 PM)
-[2017.04.03-04.37.10:037][638]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.37.10:110][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073137s)
-[2017.04.03-04.37.10:115][638]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.37.10:116][638]LogPlayLevel: PIE: World Init took: (0.005667s)
-[2017.04.03-04.37.10:116][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.079962s)
-[2017.04.03-04.37.10:234][638]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.37.10:299][638]LogInit: FAudioDevice initialized.
-[2017.04.03-04.37.10:374][638]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.37.10:395][638]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.37.10
-[2017.04.03-04.37.10:397][638]LogWorld: Bringing up level for play took: 0.019344
-[2017.04.03-04.37.10:437][638]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.997
-[2017.04.03-04.37.10:438][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.19:511][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.19:659][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.21:938][766]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.37.22:040][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.22:040][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.37.22:041][766]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:37:22 PM)
-[2017.04.03-04.37.22:041][766]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.37.22:097][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056064s)
-[2017.04.03-04.37.22:102][766]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.37.22:103][766]LogPlayLevel: PIE: World Init took: (0.005605s)
-[2017.04.03-04.37.22:103][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.062621s)
-[2017.04.03-04.37.22:208][766]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.37.22:273][766]LogInit: FAudioDevice initialized.
-[2017.04.03-04.37.22:346][766]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.37.22:366][766]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.37.22
-[2017.04.03-04.37.22:367][766]LogWorld: Bringing up level for play took: 0.018333
-[2017.04.03-04.37.22:380][766]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.94
-[2017.04.03-04.37.22:381][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.29:522][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.29:695][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.37.51:541][892]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.04.03-04.37.52:777][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock52)
-[2017.04.03-04.37.53:416][894]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultGame.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.37.58:124][941]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TheShadowRealm
-
-[2017.04.03-04.37.58:124][941]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.04.03-04.37.58:124][941]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.04.03-04.37.58:124][941]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.04.03-04.37.58:285][942]LogTemp:Display: BranchPath = CASHSHERIDAN/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = CASHSHERIDAN/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Christian\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.04.03-04.38.02:890][994]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.04.03-04.38.11:033][ 92]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "/Script/EngineSettings" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.38.11:951][103]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultGame.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.38.11:981][103]SourceControl: Info svn: warning: W155007: 'C:\Script\EngineSettings' is not a working copy
-[2017.04.03-04.38.18:850][182]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultGame.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.39.19:886][955]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.39.20:018][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.20:018][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.39.20:019][955]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:39:20 PM)
-[2017.04.03-04.39.20:019][955]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.39.20:074][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055343s)
-[2017.04.03-04.39.20:087][955]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.39.20:088][955]LogPlayLevel: PIE: World Init took: (0.013741s)
-[2017.04.03-04.39.20:089][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.070316s)
-[2017.04.03-04.39.20:223][955]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.39.20:306][955]LogInit: FAudioDevice initialized.
-[2017.04.03-04.39.20:374][955]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.39.20:392][955]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.39.20
-[2017.04.03-04.39.20:393][955]LogWorld: Bringing up level for play took: 0.016746
-[2017.04.03-04.39.20:406][955]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.966
-[2017.04.03-04.39.20:408][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.30:884][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.31:140][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.32:431][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock49)
-[2017.04.03-04.39.39:360][182]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.04.03-04.39.49:231][328]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.04.03-04.39.50:264][341]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.03-04.39.50:393][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.50:393][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.03-04.39.50:394][341]PIE: New page: PIE session: Minimal_Default (Apr 2, 2017, 4:39:50 PM)
-[2017.04.03-04.39.50:394][341]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.04.03-04.39.50:466][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072351s)
-[2017.04.03-04.39.50:469][341]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.04.03-04.39.50:470][341]LogPlayLevel: PIE: World Init took: (0.003219s)
-[2017.04.03-04.39.50:470][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.076535s)
-[2017.04.03-04.39.50:612][341]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.03-04.39.50:692][341]LogInit: FAudioDevice initialized.
-[2017.04.03-04.39.50:764][341]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.03-04.39.50:783][341]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.04.02-22.39.50
-[2017.04.03-04.39.50:784][341]LogWorld: Bringing up level for play took: 0.017803
-[2017.04.03-04.39.50:797][341]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.357
-[2017.04.03-04.39.50:798][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.56:585][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.39.56:801][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.04.03-04.40.23:964][687]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.31:545][780]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.38:286][862]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.42:359][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.50:321][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.50:321][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.50:321][864]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0063 seconds. Added 111 classes and 0 folders.
-[2017.04.03-04.40.58:240][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.58:240][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.40.59:642][864]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.41.02:137][866]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.41.12:059][966]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.41.21:511][ 42]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.41.26:669][ 49]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/DefaultEditorPerProjectUserSettings.ini" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.41.39:303][165]LogRenderer: Reallocating scene render targets to support 940x628 NumSamples 1 (Frame:7818).
-[2017.04.03-04.42.15:062][546]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/ThirdPersonBP/ThirdPersonOverview.uasset" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.42.28:018][719]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.42.53:282][ 66]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.43.08:615][258]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.43.20:229][411]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.22:528][ 91]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.04.03-04.44.26:226][137]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "/Script/MoviePlayer" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.27:268][151]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TheShadowRealm
-
-[2017.04.03-04.44.27:269][151]LogTemp:Display: CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.04.03-04.44.27:269][151]LogTemp:Display: Initial Dir: C:\Program Files (x86)\Epic Games\4.14
-
-[2017.04.03-04.44.27:269][151]LogTemp:Display: Env CWD: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNet\IOS
-
-[2017.04.03-04.44.27:348][152]LogTemp:Display: BranchPath = CASHSHERIDAN/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries --- GameBranchPath = CASHSHERIDAN/C/Program Files (x86)/Epic Games/4.14/Engine/Binaries
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Christian\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2017.04.03-04.44.28:033][159]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2017.04.03-04.44.28:786][168]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "/Script/UnrealEd" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.28:799][168]SourceControl: Info svn: warning: W155007: 'C:\Script\MoviePlayer' is not a working copy
-[2017.04.03-04.44.30:027][183]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "/Script/HardwareTargeting" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.30:044][183]SourceControl: Info svn: warning: W155007: 'C:\Script\UnrealEd' is not a working copy
-[2017.04.03-04.44.31:301][200]SourceControl: Info svn: warning: W155007: 'C:\Script\HardwareTargeting' is not a working copy
-[2017.04.03-04.44.37:976][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.42:852][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.45:276][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.48:207][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.44.48:207][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.44.48:304][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.51:523][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.54:962][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.44.59:713][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.44.59:713][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.44.59:799][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.03:526][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.06:561][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.10:155][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.10:155][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.10:219][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.13:811][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.16:858][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.20:166][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.20:166][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.20:233][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.23:188][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.25:678][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.29:128][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.29:128][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.29:188][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.34:035][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.37:023][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.40:129][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.40:129][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.40:298][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.43:485][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.46:845][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.50:286][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.50:286][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.50:353][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.53:642][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.56:056][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.45.59:322][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.45.59:322][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.45.59:378][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.02:768][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.12:027][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.16:632][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.46.16:632][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.46.16:743][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.23:680][291]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.26:810][291]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.46.32:350][291]SourceControl:Error: Error svn: warning: W160042: Path 'TheShadowRealm.uproject' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.46.32:350][291]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.51.48:734][187]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.51.59:826][187]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.52.03:035][187]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.52.05:598][187]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.52.08:570][187]SourceControl:Error: Error svn: warning: W160042: Path 'Minimal_Default.umap' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.52.08:570][187]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-04.59.06:143][188]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.59.13:386][219]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.59.19:611][219]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.59.22:740][219]LogSourceControl: Attempting "svn lock "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.59.25:168][219]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-04.59.28:117][219]SourceControl:Error: Error svn: warning: W160042: Path 'Minimal_Default.umap' doesn't exist in HEAD revision (405 Method Not Allowed)
-[2017.04.03-04.59.28:117][219]SourceControl:Error: Error svn: E200009: One or more locks could not be obtained
-[2017.04.03-05.00.02:987][718]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Plane)
-[2017.04.03-05.00.25:130][966]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Program Files (x86)/Epic Games/4.14/Engine/Content/" "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/" "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Config/" "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/TheShadowRealm.uproject" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-05.00.35:439][113]SourceControl: Info svn: warning: W155007: 'C:\Program Files (x86)\Epic Games\4.14\Engine\Content' is not a working copy
-[2017.04.03-05.00.36:672][113]EditorErrors:Warning: Warning No assets to check in!
-[2017.04.03-05.01.31:047][846]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-05.02.02:832][110]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Plane2)
-[2017.04.03-05.02.04:568][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2017.04.03-05.02.08:844][191]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Rock27)
-[2017.04.03-05.02.33:476][442]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" --non-interactive --trust-server-cert --username prdarkside --password ********"
-[2017.04.03-05.02.46:368][443]Cmd: QUIT_EDITOR
-[2017.04.03-05.02.47:468][443]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.03-05.02.47:863][443]LogExit: Preparing to exit.
-[2017.04.03-05.02.49:831][443]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/' was aborted.
-[2017.04.03-05.02.51:864][443]LogExit: Editor shut down
-[2017.04.03-05.02.51:872][443]LogExit: Transaction tracking system shut down
-[2017.04.03-05.02.53:796][443]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.03-05.02.53:797][443]LogExit: Object subsystem successfully closed.
-[2017.04.03-05.02.59:769][443]LogD3D11RHI: Shutdown
-[2017.04.03-05.02.59:769][443]LogD3D11RHI: CleanupD3DDevice
-[2017.04.03-05.03.01:626][443]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.03-05.03.04:906][443]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.03-05.03.04:906][443]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8F94B766-406A-6DDD-72F7-BE9A44B4EE58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=16da2cd44f2be9289645fcae61fbbaed%7C338dfd4c74514d8b918ac5270183860e%7Cddfd98a5-d839-4321-83d1-52d3e8a63764&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.03-05.03.05:394][443]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
-[2017.04.03-05.03.05:394][443]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
-[2017.04.03-05.03.05:430][443]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (243)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2017.04.03-05.03.05:434][443]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2017.04.03-05.03.05:435][443]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
-[2017.04.03-05.03.06:055][443]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2017.04.03-05.03.06:055][443]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2017.04.03-05.03.06:055][443]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2017.04.03-05.03.06:055][443]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Collections/' was aborted.
-[2017.04.03-05.03.06:056][443]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Developers/Christian/Collections/' was aborted.
-[2017.04.03-05.03.06:056][443]LogDirectoryWatcher: A directory notification for 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Saved/Collections/' was aborted.
-[2017.04.03-05.03.06:056][443]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2017.04.03-05.03.06:057][443]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2017.04.03-05.03.06:058][443]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2017.04.03-05.03.06:059][443]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2017.04.03-05.03.06:059][443]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2017.04.03-05.03.06:059][443]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2017.04.03-05.03.06:094][443]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2017.04.03-05.03.06:094][443]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2017.04.03-05.03.06:094][443]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module Media (215)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2017.04.03-05.03.06:095][443]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2017.04.03-05.03.06:096][443]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2017.04.03-05.03.06:695][443]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2017.04.03-05.03.06:696][443]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2017.04.03-05.03.06:698][443]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2017.04.03-05.03.06:698][443]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2017.04.03-05.03.06:698][443]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2017.04.03-05.03.06:698][443]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2017.04.03-05.03.06:699][443]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2017.04.03-05.03.06:699][443]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2017.04.03-05.03.06:699][443]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2017.04.03-05.03.06:700][443]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2017.04.03-05.03.06:745][443]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2017.04.03-05.03.06:745][443]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2017.04.03-05.03.06:745][443]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2017.04.03-05.03.06:779][443]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2017.04.03-05.03.06:779][443]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2017.04.03-05.03.06:779][443]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2017.04.03-05.03.06:781][443]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2017.04.03-05.03.06:781][443]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2017.04.03-05.03.06:782][443]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2017.04.03-05.03.06:815][443]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2017.04.03-05.03.06:815][443]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2017.04.03-05.03.06:825][443]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2017.04.03-05.03.06:827][443]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2017.04.03-05.03.06:827][443]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2017.04.03-05.03.06:828][443]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2017.04.03-05.03.06:829][443]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2017.04.03-05.03.06:829][443]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2017.04.03-05.03.06:849][443]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2017.04.03-05.03.06:850][443]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2017.04.03-05.03.06:851][443]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2017.04.03-05.03.06:851][443]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2017.04.03-05.03.06:851][443]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2017.04.03-05.03.06:851][443]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2017.04.03-05.03.06:879][443]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2017.04.03-05.03.06:880][443]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2017.04.03-05.03.06:883][443]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2017.04.03-05.03.06:883][443]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2017.04.03-05.03.06:885][443]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2017.04.03-05.03.06:897][443]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2017.04.03-05.03.06:898][443]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2017.04.03-05.03.06:998][443]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2017.04.03-05.03.07:099][443]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.04.03-05.03.07:099][443]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.04.03-05.03.07:099][443]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.04.03-05.03.07:100][443]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.04.03-05.03.07:101][443]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.04.03-05.03.07:101][443]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.04.03-05.03.07:102][443]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.04.03-05.03.07:110][443]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.04.03-05.03.07:110][443]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.04.03-05.03.07:111][443]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.04.03-05.03.07:154][443]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.04.03-05.03.07:154][443]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.04.03-05.03.07:155][443]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.04.03-05.03.07:155][443]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.04.03-05.03.07:155][443]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.04.03-05.03.07:155][443]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.04.03-05.03.07:155][443]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.03-05.03.07:160][443]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/' was aborted.
-[2017.04.03-05.03.07:163][443]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.03-05.03.07:184][443]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.04.03-05.03.07:950][443]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.04.03-05.03.07:950][443]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.04.03-05.03.07:950][443]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.04.03-05.03.07:950][443]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.04.03-05.03.07:951][443]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.04.03-05.03.07:951][443]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.04.03-05.03.07:951][443]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.04.03-05.03.07:951][443]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.04.03-05.03.07:954][443]LogDerivedDataCache: Shutdown
-[2017.04.03-05.03.07:954][443]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.04.03-05.03.07:954][443]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.04.03-05.03.07:954][443]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.04.03-05.03.07:954][443]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.04.03-05.03.07:955][443]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.04.03-05.03.07:955][443]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.04.03-05.03.07:955][443]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.04.03-05.03.07:955][443]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.04.03-05.03.07:956][443]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.04.03-05.03.07:957][443]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.04.03-05.03.07:962][443]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.04.03-05.03.07:962][443]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.04.03-05.03.07:963][443]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.03-05.03.07:964][443]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.04.03-05.03.07:965][443]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.04.03-05.03.07:965][443]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.03-05.03.07:965][443]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.03-05.03.07:965][443]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.03-05.03.07:978][443]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.03-05.03.07:978][443]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.03-05.03.07:978][443]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.03-05.03.07:979][443]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.03-05.03.07:979][443]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.03-05.03.07:979][443]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.03-05.03.08:017][443]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.03-05.03.08:034][443]LogExit: Exiting.
-[2017.04.03-05.03.08:077][443]Log file closed, 04/02/17 23:03:08
+[2017.04.09-02.04.01:035][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.09-02.04.01:035][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.09-02.04.01:173][  0]LogInit: Computer: CASHSHERIDAN
+[2017.04.09-02.04.01:173][  0]LogInit: User: Christian
+[2017.04.09-02.04.01:173][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.09-02.04.01:173][  0]LogInit: High frequency timer resolution =1.266833 MHz
+[2017.04.09-02.04.01:174][  0]LogMemory: Memory total: Physical=7.6GB (8GB approx)
+[2017.04.09-02.04.01:174][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.09-02.04.01:174][  0]LogMemory: Process Physical Memory: 262.43 MB used, 262.43 MB peak
+[2017.04.09-02.04.01:174][  0]LogMemory: Process Virtual Memory: 262.33 MB used, 262.33 MB peak
+[2017.04.09-02.04.01:174][  0]LogMemory: Physical Memory: 2820.59 MB used,  4957.67 MB free, 7778.26 MB total
+[2017.04.09-02.04.01:174][  0]LogMemory: Virtual Memory: 674.28 MB used,  4957.67 MB free, 134217728.00 MB total
+[2017.04.09-02.04.01:334][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.09-02.04.07:646][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.09-02.04.07:700][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6310 Graphics' (Feature Level 11_0)
+[2017.04.09-02.04.07:701][  0]LogD3D11RHI:       369/0/3712 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.09-02.04.07:714][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.09-02.04.07:714][  0]LogD3D11RHI:       0/0/3889 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.09-02.04.07:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.09-02.04.07:733][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.09-02.04.07:733][  0]LogD3D11RHI:     GPU DeviceId: 0x9802 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.09-02.04.07:733][  0]LogWindows: EnumDisplayDevices:
+[2017.04.09-02.04.07:735][  0]LogWindows:    0. 'AMD Radeon HD 6310 Graphics' (P:1 D:1)
+[2017.04.09-02.04.07:743][  0]LogWindows:    1. 'AMD Radeon HD 6310 Graphics' (P:0 D:0)
+[2017.04.09-02.04.07:748][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.04.09-02.04.07:748][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6310 Graphics
+[2017.04.09-02.04.07:748][  0]LogD3D11RHI:   Driver Version: 15.201.1151.0 (internal:15.201.1151.0, unified:15.201.1151.0)
+[2017.04.09-02.04.07:748][  0]LogD3D11RHI:      Driver Date: 8-21-2015
+[2017.04.09-02.04.07:749][  0]LogRHI: Texture pool is 258 MB (70% of 369 MB)
+[2017.04.09-02.04.07:794][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.09-02.04.07:830][  0]LogD3D11RHI: GPU Timing Frequency: 50.000000 (Debug: 2 1)
+[2017.04.09-02.04.07:837][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Intermediate/Shaders/WorkingDirectory/6296/).
+[2017.04.09-02.04.07:839][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Christian/AppData/Local/Temp/UnrealShaderWorkingDir/206194074A89E326ED653EA927E7C4DE/'.
+[2017.04.09-02.04.07:839][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.09-02.04.19:195][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.09-02.04.20:655][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.09-02.04.22:112][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.09-02.04.23:561][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.09-02.04.25:031][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.09-02.04.26:456][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.09-02.04.27:886][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.09-02.04.29:334][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.09-02.04.30:736][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.09-02.04.32:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.09-02.04.33:701][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.09-02.04.35:129][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.09-02.04.36:624][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.09-02.04.38:075][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.09-02.04.39:640][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.09-02.04.42:783][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.09-02.04.42:783][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.09-02.04.44:078][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.09-02.04.46:358][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.09-02.04.47:292][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.09-02.04.48:892][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.09-02.04.50:442][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.09-02.04.51:957][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.09-02.04.53:435][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.09-02.04.53:436][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.09-02.05.07:790][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.09-02.05.08:160][  0]LogDerivedDataCache: Loaded boot cache 0.37s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.09-02.05.08:160][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.09-02.05.08:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.09-02.05.08:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.09-02.05.08:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.09-02.05.08:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.09-02.05.08:271][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.09-02.05.08:293][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.09-02.05.10:010][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.09-02.05.10:041][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.09-02.05.15:259][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.09-02.05.16:744][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.09-02.05.18:202][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.09-02.05.18:202][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.09-02.05.18:202][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.09-02.05.24:837][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: theshadowrealm, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2850033435
+[2017.04.09-02.05.25:746][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.04.09-02.05.27:557][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.425033 seconds
+[2017.04.09-02.05.27:593][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.09-02.05.27:593][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.09-02.05.27:593][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.09-02.05.30:255][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.09-02.05.58:509][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.09-02.05.58:518][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.09-02.05.58:518][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.09-02.06.10:402][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.09-02.06.11:422][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.09-02.06.21:464][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.09-02.06.34:042][  0]SourceControl: Info Source control is disabled
+[2017.04.09-02.06.34:057][  0]SourceControl: Info Source control is disabled
+[2017.04.09-02.06.35:486][  0]SourceControl: Info Source control is disabled
+[2017.04.09-02.07.15:437][  0]LogEngine: Initializing Engine...
+[2017.04.09-02.07.15:445][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.09-02.07.20:204][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.09-02.07.20:256][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.09-02.07.20:389][  0]LogInit: FAudioDevice initialized.
+[2017.04.09-02.07.20:552][  0]LogDerivedDataCache: Saved boot cache 0.16s 50MB C:/Users/Christian/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.09-02.07.20:612][  0]LogInit: Texture streaming: Enabled
+[2017.04.09-02.07.27:207][  0]LogInit: Transaction tracking system initialized
+[2017.04.09-02.07.39:769][  0]BlueprintLog: New page: Editor Load
+[2017.04.09-02.08.21:424][  0]LocalizationService: Info Localization service is disabled
+[2017.04.09-02.08.52:470][  0]LogConsoleResponse:Display: 
+[2017.04.09-02.08.56:583][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.09-02.08.56:583][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.09-02.08.57:805][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/' took 0.08s
+[2017.04.09-02.09.36:832][  0]LogSourceControl: Attempting "svn info --xml "../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --non-interactive --trust-server-cert --username prdarkside --password ********"
+[2017.04.09-02.09.37:843][  0]LogSourceControl: Unable to detect system-level svn binary.
+[2017.04.09-02.09.37:844][  0]LogSourceControl: Using path C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/ThirdParty/svn/Win64/svn.exe for svn operations
+[2017.04.09-02.09.39:228][  0]SourceControl:Warning: Warning Successfully connected to repository https://github.com/PRDarkSide/theShadowRealm
+[2017.04.09-02.09.39:230][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.09-02.09.39:278][  0]LightingResults: New page: Lighting Build
+[2017.04.09-02.09.40:811][  0]MapCheck: New page: Map Check
+[2017.04.09-02.09.40:811][  0]LightingResults: New page: Lighting Build
+[2017.04.09-02.09.45:952][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.04.09-02.09.46:237][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.09-02.09.46:248][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.09-02.09.47:459][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,210.668ms to complete.
+[2017.04.09-02.09.47:460][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.231
+[2017.04.09-02.09.49:978][  0]LogSourceControl: Attempting "svn info "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --xml --non-interactive --trust-server-cert --username prdarkside --password ********"
+[2017.04.09-02.09.49:978][  0]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/" --non-interactive --trust-server-cert --username prdarkside --password ********"
+[2017.04.09-02.09.49:978][  0]LogCollectionManager: Loaded 0 collections in 0.007643 seconds
+[2017.04.09-02.09.52:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Saved/Collections/' took 0.01s
+[2017.04.09-02.09.52:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Developers/Christian/Collections/' took 0.01s
+[2017.04.09-02.09.52:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Christian/Documents/Unreal Projects/theShadownRealmRepo/trunk/Content/Collections/' took 0.01s
+[2017.04.09-02.09.52:079][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2017.04.09-02.09.52:200][  0]LogContentBrowser: Native class hierarchy populated in 0.1038 seconds. Added 2190 classes and 428 folders.
+[2017.04.09-02.09.53:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.09-02.09.53:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.09-02.09.53:864][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0046 seconds. Added 13 classes and 0 folders.
+[2017.04.09-02.09.56:305][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0045 seconds. Added 0 classes and 0 folders.
+[2017.04.09-02.09.59:823][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0046 seconds. Added 0 classes and 0 folders.
+[2017.04.09-02.10.01:458][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0056 seconds. Added 1 classes and 2 folders.
+[2017.04.09-02.10.03:037][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.09-02.10.03:188][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.09-02.10.04:805][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2017.04.09-02.10.04:806][  0]LogLoad: (Engine Initialization) Total time: 384.28 seconds
+[2017.04.09-02.10.04:806][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.94 seconds
+[2017.04.09-02.10.04:806][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.09-02.10.05:152][  0]LogOcInput: OculusInput pre-init called
+[2017.04.09-02.10.05:269][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.09-02.10.07:083][  0]LogRenderer: Reallocating scene render targets to support 904x436 NumSamples 1 (Frame:2).
+[2017.04.09-02.10.13:113][ 10]LogAssetRegistry: Asset discovery search completed in 287.3912 seconds
+[2017.04.09-02.10.13:113][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.04.09-02.10.13:113][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
